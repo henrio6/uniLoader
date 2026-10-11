@@ -20,7 +20,7 @@ int a20e_init(void)
 static struct video_info a20e_fb = {
 	.format = FB_FORMAT_ARGB8888,
 	.width = 720,
-	.height = 1520,
+	.height = 1560,
 	.stride = 4,
 	.address = (void *)0xec000000
 };
